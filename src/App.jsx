@@ -38,7 +38,7 @@ const App = () => {
       });
     }
   };
-
+  console.log("App is rendering")
   return (
     <>
       <div className="main">
