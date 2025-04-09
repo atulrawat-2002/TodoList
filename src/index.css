@@ -99,3 +99,9 @@ ol li{
 #edit-btn:hover{
  color: limegreen;
 }
+
+@media(max-width: 800px){
+  .center_box{
+    width: 45%;
+  }
+}
