@@ -1,0 +1,101 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(152, 243, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center_box{
+  width: 20%;
+  height: 70%;
+  background-color: white;
+  border: 5px solid rgb(70, 14, 122);
+  outline: 5px solid rgb(114, 230, 230);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px grey;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#upper-box{
+  background-color: white;
+  position: sticky;
+  top: 1px;
+  bottom: 1px;
+  z-index: 99;
+}
+.top-heading{
+  text-align: center;
+  background-color: blueviolet;
+}
+#add-btn{
+  border-radius: 48%;
+  margin-left: 10%;
+  background-color: blueviolet;
+  font-size: 30px;
+  color: white;
+
+}
+#add-btn:hover{
+  background-color: lime;
+}
+li{
+  list-style: none;
+}
+.todo-input{
+  outline: none;
+  border: none;
+  border-bottom: 2px solid blueviolet;
+  text-align: center;
+  margin-left: 20%;
+  width: 50%;
+}
+ol li{
+  margin: 18px 0px;
+  font-weight: bold;
+  width: 63%;
+  position: relative;
+  left: 35%;
+  top: -39px;
+  word-wrap: break-word;
+}
+#edit{
+  outline: 1px solid blueviolet;
+}
+.new-box{
+  display: inline;
+}
+.item-box{
+  /* height: 40px; */
+  width: 100%;
+  box-sizing: content-box ;
+  background-color: rgb(245, 240, 234);
+  margin: 4px 0px;
+}
+#del-btn, #edit-btn{
+  position: relative;
+  color: blueviolet;
+  cursor: pointer;
+  bottom: -8px !important;
+  margin: 0px 2%;
+}
+#del-btn:hover{
+ color: red;
+}
+#edit-btn:hover{
+ color: limegreen;
+}

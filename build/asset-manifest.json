@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/atulrawat-2002/To-Do-List/static/css/main.e0cafc29.css",
+    "main.js": "/atulrawat-2002/To-Do-List/static/js/main.71cadf05.js",
+    "index.html": "/atulrawat-2002/To-Do-List/index.html",
+    "main.e0cafc29.css.map": "/atulrawat-2002/To-Do-List/static/css/main.e0cafc29.css.map",
+    "main.71cadf05.js.map": "/atulrawat-2002/To-Do-List/static/js/main.71cadf05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0cafc29.css",
+    "static/js/main.71cadf05.js"
+  ]
+}
