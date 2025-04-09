@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/atulrawat-2002/ToDoList/static/css/main.e0cafc29.css",
-    "main.js": "/atulrawat-2002/ToDoList/static/js/main.71cadf05.js",
+    "main.js": "/atulrawat-2002/ToDoList/static/js/main.8e75afb5.js",
     "index.html": "/atulrawat-2002/ToDoList/index.html",
     "main.e0cafc29.css.map": "/atulrawat-2002/ToDoList/static/css/main.e0cafc29.css.map",
-    "main.71cadf05.js.map": "/atulrawat-2002/ToDoList/static/js/main.71cadf05.js.map"
+    "main.8e75afb5.js.map": "/atulrawat-2002/ToDoList/static/js/main.8e75afb5.js.map"
   },
   "entrypoints": [
     "static/css/main.e0cafc29.css",
-    "static/js/main.71cadf05.js"
+    "static/js/main.8e75afb5.js"
   ]
 }
